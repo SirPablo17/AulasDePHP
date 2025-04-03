@@ -26,6 +26,6 @@ try{
     }
 
 } catch (Exception $e){
-    $_SESSION['mensagem_erro'] = "Erro de conexão: ".$e->getMessage(); 
-    header('Location: ');
+    $_SESSION['mensagem_erro'] = "Erro de conexão: ".$e->getMessage();
+    header('Location: login.php?erro');
 }
