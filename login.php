@@ -29,7 +29,7 @@ if(isset($_SESSION['mensagem de erro'])){
                 <br><br>
 
                 <label for="nome">Senha:</label>
-                <input type="text" id="senha" name = "senha" required>
+                <input type="password" id="senha" name = "senha" required>
 
                 <br><br>
 
