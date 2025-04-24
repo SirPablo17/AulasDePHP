@@ -19,3 +19,5 @@ try { // Tente
 catch (PDOExeption $error){ // Se não conseguir, faça isso
     echo "Erro ao tentar conectar com o Banco de Dados <p>".$error;
 }
+
+?>

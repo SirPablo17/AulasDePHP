@@ -18,13 +18,20 @@ if(!isset($_SESSION['admin_logado'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel do administrador</title>
-</head>
-<body>
-    <h2>Bem-Vindo Administrador</h2>
-    <a href="cadastrar_produto.php">
-    <button>Cadastrar Produto</button></a>
+</head>  
 
-    <a href="listar_produtos.php">
+    <h2>Seja Bem-Vindo, ADMINISTRADOR</h2>
+
+    <a href="cadastrar_administrador.php">
+    <button> Produto</button></a>
+
+    <a href="listar_administrador.php">
+    <button> Produto</button></a>
+
+    <a href="cadastrar_produto.php">
+    <button>Cadastrar Produtos</button></a>
+
+    <a href="listar_produto.php">
     <button>Listar Produtos</button></a>
 </body>
 </html>

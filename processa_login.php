@@ -19,6 +19,7 @@ try{
     if($query->rowCount() > 0){
         $_SESSION['admin_logado'] = true;
         header('Location: painel_admin.php');
+        exit;
     } else {
         $_SESSION['mensagem_erro'] = "Nome de usuário ou senha incorreto";
         header('Location:login.php?erro');
@@ -29,3 +30,5 @@ try{
     $_SESSION['mensagem_erro'] = "Erro de conexão: ".$e->getMessage();
     header('Location: login.php?erro');
 }
+
+?>
