@@ -23,13 +23,13 @@ if(!isset($_SESSION['admin_logado'])){
     <h2>Seja Bem-Vindo, ADMINISTRADOR</h2>
 
     <a href="cadastrar_administrador.php">
-    <button> Produto</button></a>
+    <button>Cadastrar Administrador</button></a>
 
     <a href="listar_administrador.php">
-    <button> Produto</button></a>
+    <button>Listar Administrador</button></a>
 
     <a href="cadastrar_produto.php">
-    <button>Cadastrar Produtos</button></a>
+    <button>Cadastrar Produto</button></a>
 
     <a href="listar_produto.php">
     <button>Listar Produtos</button></a>
